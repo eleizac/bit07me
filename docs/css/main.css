@@ -1,6 +1,10 @@
 body {background-color: lightpink;
 
 }
+figure{
+    align-items: center;
+}
 .name {
+    text-align: center;
     color: blueviolet;
 }

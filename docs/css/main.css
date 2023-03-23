@@ -242,7 +242,6 @@ html {
   font-size: larger;
   margin-top: 20px;
 }
-
 @media (max-width: 768px) {
   html {
     font-size: 14px;

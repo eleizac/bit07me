@@ -16,20 +16,16 @@ html {
 .header {
   position: fixed;
   top: 0;
-  
   padding: 0px;
   z-index: 9999;
   width: 100%;
 }
 
-
 .nav-link {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #555;
   transition: all 0.6s ease-in-out;
-  word-spacing: 8px;
-  letter-spacing: 3px;
 }
 
 .nav-link:hover {
@@ -46,8 +42,6 @@ html {
     display: none;
     width: 100%;
     background-color: #555;
-    
-    
   }
 
   .navbar-nav li {
@@ -127,7 +121,6 @@ html {
   background-size: cover;
   background-position: center;
   padding: 20px;
-  
 }
 
 .image-section {
@@ -139,7 +132,7 @@ html {
   margin-bottom: 1%;
   opacity: 0.2;
 }
-.h2{
+.h2 {
   background-color: transparent;
 }
 
@@ -157,8 +150,8 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 3px; 
-  margin-bottom: 0.5%; 
+  padding: 3px;
+  margin-bottom: 0.5%;
 }
 .title1 {
   color: #ff69b4;
@@ -180,8 +173,7 @@ html {
   transform: scale(1.2);
 }
 
-
-.skills{
+.skills {
   margin-top: 10px;
   background-color: white;
   padding-top: 10px;
@@ -195,10 +187,9 @@ html {
   background-color: #000;
   font-size: xx-large;
   margin-left: 20px;
-  
 }
 
-.title3{
+.title3 {
   margin-top: 20px;
   background-color: white;
   padding-top: 5%;
@@ -207,31 +198,30 @@ html {
   margin-bottom: 2%;
   background-color: white;
 }
-.project{
+.project {
   background-color: white;
 }
-.card{
+.card {
   margin-left: 40px;
   margin-right: 40px;
   background-color: #ff69b4;
   margin-top: 20px;
 }
-.card-title{
+.card-title {
   color: #ff69b4;
   font-size: xxx-large;
 }
-.btn{
+.btn {
   background-color: #ff69b4;
 }
 
-.contact{
- background-color: white;
+.contact {
+  background-color: white;
 }
-.contenedor{
-  height: 100px; 
+.contenedor {
+  height: 100px;
   text-align: center;
   margin-bottom: 5px;
-  
 }
 
 .linkedin-logo {
@@ -239,10 +229,34 @@ html {
   height: 50px;
   margin-top: 30px;
   background-color: #ff69b4;
-  
 }
 .github-logo {
   width: 50px;
   height: 50px;
   background-color: #ff69b4;
+}
+.footer {
+  background-color: #000;
+  color: #ff69b4;
+  text-align: center;
+  font-size: larger;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  .nav-link {
+    font-size: 2rem;
+  }
+  .title1, .title2 {
+    font-size: 3rem;
+  }
+  .text-container {
+    width: 90%;
+  }
+  .card {
+    margin: 10px;
+  }
 }
